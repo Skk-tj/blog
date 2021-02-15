@@ -8,7 +8,7 @@ published-on: February 15, 2021
 
 There are some other Python data structures in the `collections` module. I read about them in the book called "Python Cookbook", a great book indeed. These data structures are a bit more different than the lists, dictionaries, and sets we usually deal with. Although lists, dictionaries, and sets are powerful enough for our usual needs, I think it's still useful to know some other ones in case we need a more specialized data structure. 
 
-One data structure that I find interesting is `deque`. Although in theory, a deque is mostly just a list in Python, since popping front and end, inserting front and end can all be achieved by a list. But one interesting application of a deque is to give it a `maxlen` property. It becomes useful when, for example, we need to keep a user's most recent 20 searches. the `maxlen` property essentially indicates how many of the most recent items we shall keep in the deque. 
+One data structure that I find interesting is `deque`. Although in theory, a deque is mostly just a list in Python, since popping front and end, inserting front and end can all be achieved by a list, one interesting application of a deque is to give it a `maxlen` property. It becomes useful when, for example, we need to keep a user's most recent 20 searches. the `maxlen` property essentially indicates how many of the most recent items we shall keep in the deque. 
 
 ```python
 from collections import deque
