@@ -4,7 +4,7 @@ title: Some Thoughts on Python Data Structures and Algorithms
 published-on: February 15, 2021
 ---
 
-# Some Python Data Structures and Algorithms
+# Some Thoughts on Python Data Structures and Algorithms
 
 There are some other Python data structures in the `collections` module. I read about them in the book called "Python Cookbook", a great book indeed. These data structures are a bit more different than the lists, dictionaries, and sets we usually deal with. Although lists, dictionaries, and sets are powerful enough for our usual needs, I think it's still useful to know some other ones in case we need a more specialized data structure. 
 
