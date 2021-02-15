@@ -121,7 +121,7 @@ pprint.pprint(l)
 
 Like that, we don't even have to supply a custom comparison function. Of course, if we, for some reason, want to supply one, we can by defining the `key` argument.
 
-When defining key, we could use lambdas. But sometimes we may want to simply just refer to a list item or a dictionary item. We could then use `itemgetter()` and `attrgetter()` from the `operator` module.
+When defining the `key` argument, we could use lambdas. But sometimes we may want to simply refer to a list item or a dictionary item. We could then use `itemgetter()` and `attrgetter()` from the `operator` module.
 
 `itemgetter()` is similar to the `[]` operator, while `attrgetter()` is similar to the `.` operator. For example:
 
@@ -151,7 +151,7 @@ pprint.pprint(l)
 #  [12, 'Z', 'bd']]
 ```
 
-Now, the lists are sorted by the order of the second element. But here comes the question, how do we sort the elements by the second element, then by the third element, finally by the first element? 
+Now, the lists are sorted by the order of the second element. But here comes the question, how do we sort the elements by the second element, then by the third element, and finally by the first element? 
 
 
 ```python
