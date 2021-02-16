@@ -61,9 +61,9 @@ So if we do:
 var op: Int? = 1001001;
 
 if let actual_op = op {
-	print("\(actual_op)")
+    print("\(actual_op)")
 } else {
-	print("No value yet. ")
+    print("No value yet. ")
 }
 
 // prints: 1001001
