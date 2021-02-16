@@ -1,10 +1,10 @@
 ---
 layout: post
-title: My thoughts about Swift - Overview
+title: My thoughts about Swift - 1
 published-on: February 15, 2021
 ---
 
-# My thoughts about Swift - Overview
+# My thoughts about Swift - 1
 
 This is probably gonna be a multi-part series, but I'll be talking about my feeling about Swift in this series as I learn it. 
 
