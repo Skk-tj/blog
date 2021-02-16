@@ -1,12 +1,12 @@
 ---
 layout: post
-title: My thoughts about Swift - 1
+title: My Thoughts About Swift - 1
 published-on: February 15, 2021
 ---
 
-# My thoughts about Swift - 1
+# My Thoughts About Swift - 1
 
-This is probably gonna be a multi-part series, but I'll be talking about my feeling about Swift in this series as I learn it. 
+This is probably gonna be a multi-part series, but I'll be talking about my feeling about Swift in this series. 
 
 Swift is a protocol-oriented language. I personally have never heard of this type of programming paradigm. But the word hints that instead of being object-oriented like Java heavily does rely on, it focuses more on functionality and extensibility. So I think it's important for us to adopt a fresh new perspective when approaching this language.
 
