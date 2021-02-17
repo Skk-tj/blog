@@ -30,7 +30,7 @@ Why do we define it like that? With this definition above. We can define additio
 
 Now, let's look at how we do something like `a + 1`. We would be looking at the successor of `a`: `S(a)`. `a + 2` would be `S(S(a))`, `a + 3` is `S(S(S(a)))`. and so on. Addition here is defined recursively. 
 
-This kind of gives you a taste of what abstract algebra looks like: we don't care about specific numbers, we do, however, looks at the structure of a system and try to generalize it. An algebraic structure not only includes the numbers themselves, but also the operations within. 
+This kind of gives you a taste of what abstract algebra looks like: we don't care about specific numbers, we do, however, look at the structure of a system and try to generalize it. An algebraic structure not only includes the numbers themselves, but also the operations within. 
 
 To talk about operations, we first look at the idea of "Groups". 
 
