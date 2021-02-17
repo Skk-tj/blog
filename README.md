@@ -7,6 +7,8 @@ My blog about programming, or sometimes math.
 
 3. [My Thoughts About Swift - 1](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_1.md)
 
+4. [Looking at Abstract Algebra in a rather Mind-boggling Way](https://github.com/Skk-tj/blog/blob/main/abstract_algebra.md)
+
 # List of potential future topics
 
 1. My thoughts on Swift
@@ -14,6 +16,5 @@ My blog about programming, or sometimes math.
 3. Fizzbuzz problem
 4. C++ inversion of control
 5. Understanding architectures and operating systems
-6. understanding abstract algebra in a rather mind-boggling way
-7. cool things about number theory
-8. what's so hard about linear algebra
+6. cool things about number theory
+7. what's so hard about linear algebra
