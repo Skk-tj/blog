@@ -9,6 +9,8 @@ My blog about programming, or sometimes math.
 
 4. [Looking at Abstract Algebra in a rather Mind-boggling Way](https://github.com/Skk-tj/blog/blob/main/abstract_algebra.md)
 
+5. [My Thoughts About Swift - 2](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_2.md)
+
 # List of potential future topics
 
 1. My thoughts on Swift
