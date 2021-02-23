@@ -11,6 +11,8 @@ My blog about programming, or sometimes math.
 
 5. [My Thoughts About Swift - 2](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_2.md)
 
+6. [C++ "rvalue" and "lvalue"](https://github.com/Skk-tj/blog/blob/main/c_plus_plus_rvalue_lvalue.md)
+
 # List of potential future topics
 
 1. My thoughts on Swift
