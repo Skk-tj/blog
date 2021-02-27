@@ -13,6 +13,8 @@ My blog about programming, or sometimes math.
 
 6. [C++ "rvalue" and "lvalue"](https://github.com/Skk-tj/blog/blob/main/c_plus_plus_rvalue_lvalue.md)
 
+7. [My Thoughts About Swift - 3](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_3.md)
+
 # List of potential future topics
 
 1. My thoughts on Swift
