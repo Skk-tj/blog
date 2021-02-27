@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Thoughts About Swift - 2
+title: My Thoughts About Swift - 3
 published-on: February 26, 2021
 ---
 
@@ -36,7 +36,7 @@ func getTimesTwo(_ number: Int) -> Int {
 getTimesTwo(13)
 ```
 
-This introduces the concepts of "argument label" and "parameter label". We often use argument and parameter interchangeably during programming, but there's a different in Swift. We can look at the following code:
+This introduces the concepts of "argument label" and "parameter label". We often use argument and parameter interchangeably during programming, but there's a difference in Swift. We can look at the following code:
 
 ```swift
 func getTimesTwo(original number: Int) -> Int {
