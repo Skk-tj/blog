@@ -15,12 +15,14 @@ My blog about programming, or sometimes math.
 
 7. [My Thoughts About Swift - 3](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_3.md)
 
+8. [My Thoughts About Swift - 4](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_4.md)
+
 # List of potential future topics
 
 1. My thoughts on Swift
-2. C++ rvalue/lvalue
-3. Fizzbuzz problem
-4. C++ inversion of control
-5. Understanding architectures and operating systems
-6. cool things about number theory
-7. what's so hard about linear algebra
+2. Fizzbuzz problem
+3. C++ inversion of control
+4. Understanding architectures and operating systems
+5. cool things about number theory
+6. what's so hard about linear algebra
+7. learning rust made me understand C++ better
