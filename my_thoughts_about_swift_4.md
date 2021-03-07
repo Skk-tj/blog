@@ -45,7 +45,7 @@ Last time we looked at functions and there was an example of implicit return, we
 reversedSorted = names.sorted(by: { (s1, s2) in s1 > s2 })
 ```
 
-Now it *really* looks simplified. It's a cool thing. But Swift allows you to simplify it further. You see, `s1` and `s2` are just some names we gave to represent two elements in comparison. So we can get around that by do something like this:
+Now it *really* looks simplified. It's a cool thing. But Swift allows you to simplify it further. You see, `s1` and `s2` are just some names we gave to represent two elements in comparison. So we can get around that by doing something like this:
 
 ```swift
 reversedSorted = names.sorted(by: { $0 > $1 })
