@@ -1,5 +1,5 @@
 # blog
-My blog about programming, or sometimes math. 
+My blog about programming, or sometimes mathematics. 
 
 1. [C++ is more than what I thought](https://github.com/Skk-tj/blog/blob/main/c_plus_plus_is_more_than_what_i_thought.md)
 
@@ -17,6 +17,8 @@ My blog about programming, or sometimes math.
 
 8. [My Thoughts About Swift - 4](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_4.md)
 
+9. [Understanding Rust and its ownership model](https://github.com/Skk-tj/blog/blob/main/understand_rust_and_its_ownership_model.md)
+
 # List of potential future topics
 
 1. My thoughts on Swift
@@ -25,4 +27,3 @@ My blog about programming, or sometimes math.
 4. Understanding architectures and operating systems
 5. cool things about number theory
 6. what's so hard about linear algebra
-7. learning rust made me understand C++ better
