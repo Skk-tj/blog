@@ -4,6 +4,8 @@ title: Understanding Rust and its ownership model
 published-on: March 06, 2021
 ---
 
+# Understanding Rust and its ownership model
+
 A few days ago I had an opportunity to learn the Rust programming language. At first, I thought this is simply another language with a different syntax. Turns our Rust has this entire ownership/borrowing model that kind of confused me at first, but eventually allowed me to realize how safe Rust is. 
 
 Rust introduced an ownership model that works a lot like C++'s reference mechanism, but there are still some interesting quirks. The `String` type in Rust, does not copy, but in C++, it does:
