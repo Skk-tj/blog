@@ -6,21 +6,7 @@ published-on: March 06, 2021
 
 A few days ago I had an opportunity to learn the Rust programming language. At first, I thought this is simply another language with a different syntax. Turns our Rust has this entire ownership/borrowing model that kind of confused me at first, but eventually allowed me to realize how safe Rust is. 
 
-As we probably all know, safety is the utmost important in programming, specifically, we want to catch buggy things at compile-time, not run-time. C/C++ is horrible at this, for example:
-
-```cpp
-int main() {
-    std::string* str_ptr = new std::string("Test");
-
-    str_ptr = NULL;
-
-    str_ptr->append("Won't work");
-}
-```
-
-Obviously this, for god's sake, doesn't work, but `g++` and `clang` both compiled this without any error. This is what we call a dangling pointer problem. but here we are not talking about problems regarding pointers, the focus here is that C/C++ is not good at catching things at compile-time. 
-
-Rust introduced an ownership model that works a lot like C++'s reference mechanism, but there are still some interesting quirks. the `String` type in Rust, does not copy, but in C++, it does:
+Rust introduced an ownership model that works a lot like C++'s reference mechanism, but there are still some interesting quirks. The `String` type in Rust, does not copy, but in C++, it does:
 
 ```cpp
 // C++
