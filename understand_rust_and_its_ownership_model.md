@@ -8,20 +8,20 @@ published-on: March 06, 2021
 
 A few days ago I had an opportunity to learn the Rust programming language. At first, I thought this is simply another language with a different syntax. Turns our Rust has this entire ownership/borrowing model that kind of confused me at first, but eventually allowed me to realize how safe Rust is. 
 
-Rust introduced an ownership model that works a lot like C++'s reference mechanism, but there are still some interesting quirks. The `String` type in Rust, does not copy, but in C++, it does:
+Rust introduced an ownership model that works kind of  like C++'s reference mechanism, the general gist is that only one variable can own one piece of memory resource. Nevertheless, there are still some interesting quirks. The `String` type in Rust, does not copy, but in C++, it does:
 
 ```cpp
 // C++
 #include <iostream>
 
 int main() {
-  std::string s1 = "This is a test";
-  auto s2 = s1;
+    std::string s1 = "This is a test";
+    auto s2 = s1;
 
-  s1.append(", another test");
+    s1.append(", another test");
 
-  std::cout << s1 << std::endl; // This is a test, another test
-  std::cout << s2 << std::endl; // This is a test
+    std::cout << s1 << std::endl; // This is a test, another test
+    std::cout << s2 << std::endl; // This is a test
 }
 ```
 
@@ -32,7 +32,7 @@ fn main() {
     let s1 = String::from("hello");
     let s2 = s1;
 
-    println!("{}, world!", s1);
+    println!("{}, world!", s1); // NOT OKAY!!
 }
 ```
 
@@ -61,7 +61,7 @@ int main() {
 }
 ```
 
-Interestingly, in Rust, this happens:
+You can still access `s` after the function call.  Interestingly, in Rust, this happens:
 
 ```rust
 fn main() {
@@ -76,9 +76,9 @@ fn print_string(s: String) {
 }
 ```
 
-Gee! What happened? Recall that the `String` type in Rust does not copy by default, so it must move. `s1` essentially "moved" into the scope of `print_string`, then at the end of the `print_string` scope, what `s` is referring to is dropped, and the respective memory is freed. Therefore, `s1` is no longer valid in the `main()` scope. Its ownership moved into the `print_string` scope, `s1` in `main()` no longer owns anything. 
+Gee! What happened? Recall that the `String` type in Rust does not copy by default, so it must move. The memory resource `s1` owns is now owned by `s`, the local variable in `print_string`, so the resource essentially "moved" into the scope of `print_string`, then at the end of the `print_string` scope, what `s` owns is dropped, and the respective memory is freed. Therefore, `s1` is no longer valid in the `main()` scope. Its ownership moved into the `print_string` scope, `s1` in `main()` no longer owns anything. 
 
-If you are familiar with C++'s RAII model, you might recall that a `std::unique_ptr` cannot be directly passed into a function, you must "move" the unique pointer instead.
+If you are familiar with C++'s RAII model, you might recall that a `std::unique_ptr` cannot be directly passed into a function, you must "move" the unique pointer instead. This is similar to what happened above. 
 
 ```c++
 #include <memory>
