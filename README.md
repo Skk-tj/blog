@@ -19,6 +19,10 @@ My blog about programming, or sometimes mathematics.
 
 9. [Understanding Rust and its ownership model](https://github.com/Skk-tj/blog/blob/main/understand_rust_and_its_ownership_model.md)
 
+10. [My Thoughts About Swift - 5](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_5.md)
+
+11. [C++ move semantics](https://github.com/Skk-tj/blog/blob/main/c_plus_plus_move_semantics.md)
+
 # List of potential future topics
 
 1. My thoughts on Swift
