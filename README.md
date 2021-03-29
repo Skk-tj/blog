@@ -23,9 +23,11 @@ My blog about programming, or sometimes mathematics.
 
 11. [C++ move semantics](https://github.com/Skk-tj/blog/blob/main/c_plus_plus_move_semantics.md)
 
+12. [My Thoughts About Swift - 6](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_6.md)
+
 # List of potential future topics
 
-1. My thoughts on Swift
+1. My thoughts about Swift
 2. Fizzbuzz problem
 3. C++ inversion of control
 4. Understanding architectures and operating systems
