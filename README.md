@@ -25,6 +25,8 @@ My blog about programming, or sometimes mathematics.
 
 12. [My Thoughts About Swift - 6](https://github.com/Skk-tj/blog/blob/main/my_thoughts_about_swift_6.md)
 
+13. [Python @dataclass and ABC.abc](https://github.com/Skk-tj/blog/blob/main/python_dataclass_and_abcabc.md)
+
 # List of potential future topics
 
 1. My thoughts about Swift
